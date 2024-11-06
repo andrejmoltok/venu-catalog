@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4faa7fff836d52109154cad6feaad33f" label="Employee" max_length="40" name="x_snc_venu_employee" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="ID" mandatory="true" max_length="40" name="id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee" mandatory="true" max_length="100" name="employee" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="createdAt" mandatory="true" max_length="40" name="createdat" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
